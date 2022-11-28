@@ -3,9 +3,8 @@ import { Client, Events, GatewayIntentBits } from "discord.js";
 import { config } from "dotenv";
 
 // Load environment variables from .env file
-config();
-
-const { TOKEN } = process.env;
+// config();
+// const { TOKEN } = process.env;
 
 // Create a new instance
 const client = new Client({
@@ -13,7 +12,7 @@ const client = new Client({
 		GatewayIntentBits.Guilds,
 		GatewayIntentBits.GuildMessages,
 		GatewayIntentBits.MessageContent,
-	],
+	]
 });
 
 // When the client is ready, run this code (only once)
@@ -25,7 +24,7 @@ client.once(Events.ClientReady, (c) => {
 client.login("MTA0NjY1Nzc5ODY4NTA4NTczNg.GzwFEP.Ja9oi2EjYfaUMMb5ULfz90kFyB6cZSsLP2_0dQ");
 
 // Command handler
-const prefix = "!"; // Prefix for commands
+const prefix = "/"; // Prefix for commands
 
 client.on(Events.MessageCreate, (message) => {
 	const content = message.content.trim();
