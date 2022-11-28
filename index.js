@@ -21,7 +21,7 @@ client.once(Events.ClientReady, (c) => {
 });
 
 // Log in to Discord with your client's token
-client.login("MTA0NjY1Nzc5ODY4NTA4NTczNg.GzwFEP.Ja9oi2EjYfaUMMb5ULfz90kFyB6cZSsLP2_0dQ");
+client.login("MTA0NjY1Nzc5ODY4NTA4NTczNg.GEF7W_.pWFFpt4OJ_ShDEYYofbrwcLKAtJAlCEpC5-iDU");
 
 // Command handler
 const prefix = "/"; // Prefix for commands
