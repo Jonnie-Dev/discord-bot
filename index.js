@@ -1,11 +1,11 @@
 // Require the necessary discord.js classes
 import { Client, Events, GatewayIntentBits } from "discord.js";
+import { config } from "dotenv";
 
-// import { config } from "dotenv";
 // Load environment variables from .env file
-// config();
+config();
 
-// const { TOKEN } = process.env;
+const { TOKEN } = process.env;
 
 // Create a new instance
 const client = new Client({
