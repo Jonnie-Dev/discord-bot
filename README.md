@@ -1,0 +1,1 @@
+A discord bot that doesn't do anything meaningful for now
